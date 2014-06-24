@@ -1,0 +1,23 @@
+#JSON feed URLs
+jsonCount=4
+tbsEastJson=http://data.tbs.com/processors/TBSE.jsonXXX
+#tbsWestJson=http://data.tbs.com/processors/TBSW.json
+#tntEastJson=http://data.tntdrama.com/processors/TNTE.json
+#tntWestJson=http://data.tntdrama.com/processors/TNTW.json
+#XML feed URLs
+xmlCount=4
+#tbsEastXml=http://data.tbs.com/processors/TBSE.xml
+#tbsWestXml=http://data.tbs.com/processors/TBSW.xml
+#tntEastXml=http://data.tntdrama.com/processors/TNTE.xml
+tntWestXml=XXXhttp://data.tntdrama.com/processors/TNTW.xml
+ #Logging directories
+logDir=/home/bhuggins/misc/lmdb/logs/
+feedDir=/home/bhuggins/misc/lmdb/feeds/
+#Email message parameters
+to=brent.huggins@turner.com,brenthuggins@gmail.com
+from=LmdbMonitor@mail.turner.com
+host=mail.turner.com
+port=25
+subject=Lmdb Feed Error
+msgHead=The following problem(s) were found with the Lmdb feed:\n
+msgFoot=
